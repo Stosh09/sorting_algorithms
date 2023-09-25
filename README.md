@@ -1,5 +1,3 @@
-Group Project on Sorting Algorithm and Big O-Notation
-Contributed to by Stosh09 and OukoFranchez.
 <br>
 
 <h1 align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Shell_sorting_algorithm_color_bars.svg/220px-Shell_sorting_algorithm_color_bars.svg.png" width='150'><br>Sorting algorithms<br>& Big O Notation</h1>
@@ -8,7 +6,7 @@ Contributed to by Stosh09 and OukoFranchez.
 
 <br>
 
-This projectmainly focuses on the following sorting algorithms and further delves into time and space complexity in C language:
+This project mainly focuses on the following sorting algorithms and further delves into time and space complexity in C language:
 * Bubble Sort 
 * Insertion Sort
 * Selection Sort
