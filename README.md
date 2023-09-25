@@ -8,11 +8,11 @@ Contributed to by Stosh09 and OukoFranchez.
 
 <br>
 
-This projectmainly focuses on the following sorting algorithms and further delves into time and space complexity:
+This projectmainly focuses on the following sorting algorithms and further delves into time and space complexity in C language:
 * Bubble Sort 
 * Insertion Sort
 * Selection Sort
-* Quick Sort while evaluating the time and space complexity of each designed algorithm and the Big O notation in C language.
+* Quick Sort.
 
 ## Overview
 
@@ -20,10 +20,10 @@ Alx Africa teaches Full-Stack Software Engineering with a project-based approach
 
 ## Requirements
 
-To run the algorithms you need to download the code files by [Download sorting_algorithms](https://github.com/Stosh09/sorting_algorithms/archive/refs/heads/main.zip). Or by cloning this repository with the following command in your command terminal. The result will be the same regardless of the option you choose.
+To run the algorithms you need to clone the repository by;
 
 ```bash
-~$ git clone https://github.com/viajeradelaluz/sorting_algorithms.git
+~$ git clone https://github.com/OukoFranchez/sorting_algorithms.git
 ```
 
 The compilation process uses GNU Compiler Collection (GCC) and a Linux environment like `Ubuntu 20.04 LTS`. Enter the `sorting_algorithms` folder and use the `makefile` as follows.
@@ -50,3 +50,49 @@ Output
 19, 48, 71, 13, 52, 96, 73, 86, 99, 7
 19, 48, 71, 13, 52, 96, 73, 86, 7, 99
 19, 48, 13, 71, 52, 96, 73, 86, 7, 99
+```
+
+### **1. Insertion sort**
+
+The `1-insertion_sort_list.c` function sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm.
+
+    ~/sorting_algorithms$ make insertion
+
+### **2. Selection Sort**
+
+The `2-selection_sort.c` function sorts an array of integers in ascending order using the Selection sort algorithm.
+
+    ~/sorting_algorithms$ make selection
+
+### **3. Quick sort**
+
+The `3-quick_sort.c` function sorts an array of integers in ascending order using the Quick sort algorithm.
+
+    ~/sorting_algorithms$ make quick
+
+## Files Description
+
+- `test/*main*.c` - Main files in charge of the test executions of the algorithm functions.
+- `0-O` — Big O Notation for the Bubble Sort Algorithm
+- `0-bubble_sort.c` — Function implementation of the Bubble Sort Algorithm
+- `1-O` — Big O Notation for the Insertion Sort Algorithm
+- `1-insertion_sort_list.c` — Function implementation of the Insertion Sort Algorithm using a double linked list
+- `2-O` — Big O Notation for the Selection Sort Algorithm
+- `2-selection_sort.c` — Function implementation of the Selection Sort Algorithm
+- `3-O` — Big O Notation for the Quick Sort Algorithm
+- `3-quick_sort.c` — Function implementation of the Quick Sort Algorithm
+- `makefile` - Script to compile and run the algorithm functions.
+- `README.md` — Project's description
+- `print_array.c` — Function to print all the arrays
+- `print_list.c`— Function to print the linked list
+- `sort.h`— Main header of the program
+
+## Authors
+
+| [<img src="https://avatars.githubusercontent.com/u/87556519" width="110" style="border-radius: 50%"><br><sub>Stosh Odhiambo<br><sup>@Stosh09](https://github.com/Stosh09) | [<img src="https://avatars.githubusercontent.com/u/91074465" width="110" style="border-radius: 50%"><br><sub>Ouko Franchez<br><sup>@OukoFranchez](https://github.com/OukoFranchez) |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------:|
+
+## More information
+
+[Alx Africa](https://www.alxafrica.com/)
+
