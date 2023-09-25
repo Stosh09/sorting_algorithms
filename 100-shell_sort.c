@@ -1,6 +1,6 @@
 #include "sort.h"
 
-void swap_integer(int *a, int *b);
+/*void swap_integer(int *a, int *b);*/
 
 /**
  * shell_sort - Sort an array of integers in ascending
