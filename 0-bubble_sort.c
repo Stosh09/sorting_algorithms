@@ -24,21 +24,21 @@ void swap_integers(int *a, int *b)
 void bubble_sort(int *array, size_t size)
 {
 	size_t i, len = size;
-	boolean bubbly = false;
+	boolean bubbly = is_false;
 
 	if (array == NULL || size < 2)
 		return;
 
-	while (bubbly == false)
+	while (bubbly == is_false)
 	{
-		bubbly = true;
+		bubbly = is_true;
 		for (i = 0; i < len - 1; i++)
 		{
 			if (array[i] > array[i + 1])
 			{
 				swap_integers(array + i, array + i + 1);
 				print_array(array, size);
-				bubbly = false;
+				bubbly = is_false;
 			}
 		}
 		len--;
