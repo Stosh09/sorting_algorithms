@@ -39,6 +39,11 @@ void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 char *_memset(char *str, char b, unsigned int n);
 char *_memcpy(char *destination, char *source, unsigned int n);
+void merge_sort_main(int *array, int *tmp, int lower, int higher);
+void merge(int *array, int *tmp, int lower, int mid, int higher);
+void print_array_range(int *array, int lower, int higher, char *title);
+char *_memcpy(char *destination, char *source, unsigned int n);
+
 
 
 /* Sorting algoritms */
@@ -49,5 +54,7 @@ void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
+
 
 #endif /* SORT_H */
