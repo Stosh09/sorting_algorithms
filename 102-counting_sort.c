@@ -31,7 +31,6 @@ void counting_sort(int *array, size_t size)
 	for (indx = 0; indx < size; ++indx)
 		carry[array[indx]]++;
 	_memcpy((char *)tempr, (char *)array, (size) * sizeof(int));
-
 	for (indx = 0; indx <= max; ++indx)
 	{
 		if (indx != 0)
@@ -41,17 +40,13 @@ void counting_sort(int *array, size_t size)
 			printf(", ");
 	}
 	printf("\n");
-
 	for (indx = size - 1; ; --indx)
 	{
 		array[carry[tempr[indx]] - 1] = tempr[indx];
 		--carry[tempr[indx]];
 		if (indx == 0)
-		{
 			break;
-		}
 	}
-
 	free(tempr);
 	free(carry);
 }
