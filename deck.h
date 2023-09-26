@@ -47,4 +47,10 @@ typedef struct deck_node_s
 
 void sort_deck(deck_node_t **deck);
 
+/* Helper functions*/
+int _strcmp(const char *string1, const char *string2);
+char get_value(deck_node_t *card);
+void insertion_deck_kind(deck_node_t **deck);
+void insertion_deck_value(deck_node_t **deck);
+
 #endif /* DECK_H */
