@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 /* Comparison direction macros for bitonic sort */
 #define UP 0
@@ -10,13 +11,13 @@
 
 /**
  * enum boolean - Enumeration of Boolean values.
- * @false: Equals 0.
- * @true: Equals 1.
+ * @is_false: Equals 0.
+ * @is_true: Equals 1.
  */
 typedef enum boolean
 {
-	false = 0,
-	true
+	is_false = 0,
+	is_true = 1
 } boolean;
 
 /**
