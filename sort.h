@@ -43,8 +43,20 @@ void merge_sort_main(int *array, int *tmp, int lower, int higher);
 void merge(int *array, int *tmp, int lower, int mid, int higher);
 void print_array_range(int *array, int lower, int higher, char *title);
 char *_memcpy(char *destination, char *source, unsigned int n);
-
-
+void swap_integer(int *a, int *b);
+int hoare_partition(int *array, size_t size,
+int toward_left, int toward_right);
+void hoare_sort(int *array, size_t size, int toward_left, int toward_right);
+void swap_integer(int *a, int *b);
+void bitonic_merge(int *array, size_t size, size_t the_start, size_t sequence,
+		char flow);
+void bitonic_sequence(int *array, size_t size, size_t the_start,
+		size_t sequence, char flow);
+int get_max(int *array, int size);
+void radix_count_sort(int *array, size_t size, int sig, int *buffer);
+void radix_sort(int *array, size_t size);
+void swap_integer(int *a, int *b);
+void max_heapify(int *array, size_t size, size_t base, size_t root);
 
 /* Sorting algoritms */
 void bubble_sort(int *array, size_t size);
